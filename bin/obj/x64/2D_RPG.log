@@ -1,0 +1,97 @@
+﻿D:\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(437,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+  MenuState.cpp
+D:\C++ Projects\2D_RPG\include\StatisticsComponent.h(35,33): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(23,77): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(23,77): warning C4244:         with
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(23,77): warning C4244:         [
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(23,77): warning C4244:             T=unsigned int
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(23,77): warning C4244:         ]
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(23,77): warning C4244:         and
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(23,77): warning C4244:         [
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(23,77): warning C4244:             T=float
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(23,77): warning C4244:         ]
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(23,54): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(23,54): warning C4244:         with
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(23,54): warning C4244:         [
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(23,54): warning C4244:             T=unsigned int
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(23,54): warning C4244:         ]
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(23,54): warning C4244:         and
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(23,54): warning C4244:         [
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(23,54): warning C4244:             T=float
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(23,54): warning C4244:         ]
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(24,49): warning C4244: 'argument' : conversion de 'T' en 'float', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(24,49): warning C4244:         with
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(24,49): warning C4244:         [
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(24,49): warning C4244:             T=unsigned int
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(24,49): warning C4244:         ]
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(42,90): warning C4244: 'argument' : conversion de 'double' en 'T', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(42,90): warning C4244:         with
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(42,90): warning C4244:         [
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(42,90): warning C4244:             T=float
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(42,90): warning C4244:         ]
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(42,61): warning C4244: 'argument' : conversion de 'double' en 'T', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(42,61): warning C4244:         with
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(42,61): warning C4244:         [
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(42,61): warning C4244:             T=float
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(42,61): warning C4244:         ]
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(140,86): warning C4267: '=' : conversion de 'size_t' en '_Ty2', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(140,86): warning C4267:         with
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(140,86): warning C4267:         [
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(140,86): warning C4267:             _Ty2=int
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(140,86): warning C4267:         ]
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(147,15): warning C4244: 'initialisation' : conversion de 'unsigned __int64' en 'float', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(158,40): warning C4244: '=' : conversion de 'float' en '_Ty2', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(158,40): warning C4244:         with
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(158,40): warning C4244:         [
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(158,40): warning C4244:             _Ty2=int
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(158,40): warning C4244:         ]
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(164,15): warning C4244: 'initialisation' : conversion de 'unsigned __int64' en 'float', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(174,40): warning C4244: '=' : conversion de 'float' en '_Ty2', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(174,40): warning C4244:         with
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(174,40): warning C4244:         [
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(174,40): warning C4244:             _Ty2=int
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(174,40): warning C4244:         ]
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(360,65): warning C4244: 'argument' : conversion de 'double' en 'T', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(360,65): warning C4244:         with
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(360,65): warning C4244:         [
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(360,65): warning C4244:             T=float
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(360,65): warning C4244:         ]
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(367,111): warning C4305: 'argument' : troncation de 'double' à 'const float'
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(375,67): warning C4244: 'argument' : conversion de 'double' en 'T', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(375,67): warning C4244:         with
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(375,67): warning C4244:         [
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(375,67): warning C4244:             T=float
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(375,67): warning C4244:         ]
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(379,113): warning C4305: 'argument' : troncation de 'double' à 'const float'
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(410,17): warning C4244: 'initialisation' : conversion de 'T' en 'float', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(410,17): warning C4244:         with
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(410,17): warning C4244:         [
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(410,17): warning C4244:             T=unsigned int
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(410,17): warning C4244:         ]
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(410,50): warning C4244: 'initialisation' : conversion de 'T' en 'float', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(410,50): warning C4244:         with
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(410,50): warning C4244:         [
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(410,50): warning C4244:             T=unsigned int
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(410,50): warning C4244:         ]
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(504,94): warning C4244: 'argument' : conversion de 'float' en 'const int', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(507,107): warning C4244: 'argument' : conversion de 'float' en 'const int', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(532,17): warning C4244: 'initialisation' : conversion de 'T' en 'float', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(532,17): warning C4244:         with
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(532,17): warning C4244:         [
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(532,17): warning C4244:             T=unsigned int
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(532,17): warning C4244:         ]
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(532,50): warning C4244: 'initialisation' : conversion de 'T' en 'float', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(532,50): warning C4244:         with
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(532,50): warning C4244:         [
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(532,50): warning C4244:             T=unsigned int
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(532,50): warning C4244:         ]
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(564,38): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(568,28): warning C4244: 'argument' : conversion de 'float' en 'unsigned int', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(588,39): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+D:\C++ Projects\2D_RPG\src\MenuState.cpp(588,23): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  Génération de code en cours
+  2 of 2051 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    7 functions had inline decision re-evaluated but remain unchanged
+  Fin de la génération du code
+  2D_RPG.vcxproj -> D:\C++ Projects\2D_RPG\Launcher_x64.exe

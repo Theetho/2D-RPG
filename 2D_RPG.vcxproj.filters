@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{b4fa5cd7-18ef-403a-9878-0027a7eb918f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\headers">
+      <UniqueIdentifier>{2d035fe4-eeb3-4160-833f-eade51623a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\sources">
+      <UniqueIdentifier>{641cc16c-06dd-4fe3-8fcf-cf51aa33e0f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="states">
+      <UniqueIdentifier>{ae3c241a-f283-49e4-b5ab-7a6180cbaeef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="states\headers">
+      <UniqueIdentifier>{de7e7160-e0ab-429b-b1bc-e8a5ade53a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="states\sources">
+      <UniqueIdentifier>{aca7710f-9468-42f7-b3b6-ef4cb485cc50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components">
+      <UniqueIdentifier>{bdd4d980-3037-493d-94a6-6049cdaee249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\sources">
+      <UniqueIdentifier>{fada6191-b726-446f-88c6-59a5e7220200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="components\headers">
+      <UniqueIdentifier>{3574f273-37ed-451f-922a-29eeb05ecafc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="items">
+      <UniqueIdentifier>{94c277a6-ad18-463a-8827-8bb7fdac64bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="items\sources">
+      <UniqueIdentifier>{d161e8ec-b44c-4364-a8cc-71ce50ca3c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="items\headers">
+      <UniqueIdentifier>{ee4f3b0a-18e7-41d2-87ce-88275e1b057f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entities">
+      <UniqueIdentifier>{7b605d5a-b1b4-4fbc-a1bc-c7ee2919c50f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entities\headers">
+      <UniqueIdentifier>{77fd5a42-e9a0-4cb8-b317-4e969e1aa786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entities\sources">
+      <UniqueIdentifier>{7f721353-bd07-4ebd-8aa2-3247823e92eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game manager">
+      <UniqueIdentifier>{8a0ddfdf-040a-4283-bcb5-1e8e8ebc6f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game manager\headers">
+      <UniqueIdentifier>{44131ccf-1ac5-42f6-98c4-0c4ff7467fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game manager\sources">
+      <UniqueIdentifier>{9a7d7b90-4668-4f4e-8d1f-1f7b83700da9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utility.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChatBoxGUI.cpp">
+      <Filter>GUI\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI.cpp">
+      <Filter>GUI\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EditorGUI.cpp">
+      <Filter>GUI\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InventoryGUI.cpp">
+      <Filter>GUI\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MenuGUI.cpp">
+      <Filter>GUI\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MiniMapGUI.cpp">
+      <Filter>GUI\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlayerGUI.cpp">
+      <Filter>GUI\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EditorState.cpp">
+      <Filter>states\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameState.cpp">
+      <Filter>states\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MenuState.cpp">
+      <Filter>states\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\State.cpp">
+      <Filter>states\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HitboxComponent.cpp">
+      <Filter>components\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MovementComponent.cpp">
+      <Filter>components\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MusicComponent.cpp">
+      <Filter>components\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StatisticsComponent.cpp">
+      <Filter>components\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TransitionComponent.cpp">
+      <Filter>components\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CommandComponent.cpp">
+      <Filter>components\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AnimationComponent.cpp">
+      <Filter>components\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Armor.cpp">
+      <Filter>items\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Inventory.cpp">
+      <Filter>items\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Item.cpp">
+      <Filter>items\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Weapon.cpp">
+      <Filter>items\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextField.cpp">
+      <Filter>GUI\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Button.cpp">
+      <Filter>GUI\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Character.cpp">
+      <Filter>entities\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity.cpp">
+      <Filter>entities\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>entities\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>game manager\sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Macros.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Map.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stdafx.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EditorGUI.h">
+      <Filter>GUI\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI.h">
+      <Filter>GUI\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InventoryGUI.h">
+      <Filter>GUI\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MenuGUI.h">
+      <Filter>GUI\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlayerGUI.h">
+      <Filter>GUI\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ChatBoxGUI.h">
+      <Filter>GUI\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MiniMapGUI.h">
+      <Filter>GUI\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MenuState.h">
+      <Filter>states\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameState.h">
+      <Filter>states\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EditorState.h">
+      <Filter>states\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\State.h">
+      <Filter>states\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AnimationComponent.h">
+      <Filter>components\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommandComponent.h">
+      <Filter>components\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HitboxComponent.h">
+      <Filter>components\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MovementComponent.h">
+      <Filter>components\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MusicComponent.h">
+      <Filter>components\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StatisticsComponent.h">
+      <Filter>components\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TransitionComponent.h">
+      <Filter>components\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Armor.h">
+      <Filter>items\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Inventory.h">
+      <Filter>items\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Item.h">
+      <Filter>items\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Weapon.h">
+      <Filter>items\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Player.h">
+      <Filter>entities\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TextField.h">
+      <Filter>GUI\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity.h">
+      <Filter>entities\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Character.h">
+      <Filter>entities\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Button.h">
+      <Filter>GUI\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game.h">
+      <Filter>game manager\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
