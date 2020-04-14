@@ -110,7 +110,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include; $(ProjectDir)\src</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
     </ClCompile>
     <Link>
@@ -146,7 +146,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include; $(ProjectDir)\src</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
     </ClCompile>
     <Link>
@@ -158,76 +158,76 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\AnimationComponent.cpp" />
-    <ClCompile Include="src\Armor.cpp" />
-    <ClCompile Include="src\Button.cpp" />
-    <ClCompile Include="src\Character.cpp" />
-    <ClCompile Include="src\ChatBoxGUI.cpp" />
-    <ClCompile Include="src\CommandComponent.cpp" />
-    <ClCompile Include="src\EditorGUI.cpp" />
-    <ClCompile Include="src\EditorState.cpp" />
-    <ClCompile Include="src\Entity.cpp" />
-    <ClCompile Include="src\Game.cpp" />
-    <ClCompile Include="src\GameState.cpp" />
-    <ClCompile Include="src\GUI.cpp" />
-    <ClCompile Include="src\HitboxComponent.cpp" />
-    <ClCompile Include="src\Inventory.cpp" />
-    <ClCompile Include="src\InventoryGUI.cpp" />
-    <ClCompile Include="src\Item.cpp" />
-    <ClCompile Include="src\Main.cpp" />
-    <ClCompile Include="src\Map.cpp" />
-    <ClCompile Include="src\MenuGUI.cpp" />
-    <ClCompile Include="src\MenuState.cpp" />
-    <ClCompile Include="src\MiniMapGUI.cpp" />
-    <ClCompile Include="src\MovementComponent.cpp" />
-    <ClCompile Include="src\MusicComponent.cpp" />
-    <ClCompile Include="src\Player.cpp" />
-    <ClCompile Include="src\PlayerGUI.cpp" />
+    <ClCompile Include="src\components\AnimationComponent.cpp" />
+    <ClCompile Include="src\equipments\Armor.cpp" />
+    <ClCompile Include="src\gui\Button.cpp" />
+    <ClCompile Include="src\entities\Character.cpp" />
+    <ClCompile Include="src\gui\ChatBoxGUI.cpp" />
+    <ClCompile Include="src\components\CommandComponent.cpp" />
+    <ClCompile Include="src\gui\EditorGUI.cpp" />
+    <ClCompile Include="src\states\EditorState.cpp" />
+    <ClCompile Include="src\entities\Entity.cpp" />
+    <ClCompile Include="src\core\Game.cpp" />
+    <ClCompile Include="src\states\GameState.cpp" />
+    <ClCompile Include="src\gui\GUI.cpp" />
+    <ClCompile Include="src\components\HitboxComponent.cpp" />
+    <ClCompile Include="src\equipments\Inventory.cpp" />
+    <ClCompile Include="src\gui\InventoryGUI.cpp" />
+    <ClCompile Include="src\equipments\Item.cpp" />
+    <ClCompile Include="src\core\Main.cpp" />
+    <ClCompile Include="src\core\Map.cpp" />
+    <ClCompile Include="src\gui\MenuGUI.cpp" />
+    <ClCompile Include="src\states\MenuState.cpp" />
+    <ClCompile Include="src\gui\MiniMapGUI.cpp" />
+    <ClCompile Include="src\components\MovementComponent.cpp" />
+    <ClCompile Include="src\components\MusicComponent.cpp" />
+    <ClCompile Include="src\entities\Player.cpp" />
+    <ClCompile Include="src\gui\PlayerGUI.cpp" />
     <ClCompile Include="src\stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="src\State.cpp" />
-    <ClCompile Include="src\StatisticsComponent.cpp" />
-    <ClCompile Include="src\TextField.cpp" />
-    <ClCompile Include="src\TransitionComponent.cpp" />
+    <ClCompile Include="src\states\State.cpp" />
+    <ClCompile Include="src\components\StatisticsComponent.cpp" />
+    <ClCompile Include="src\gui\TextField.cpp" />
+    <ClCompile Include="src\components\TransitionComponent.cpp" />
     <ClCompile Include="src\Utility.cpp" />
-    <ClCompile Include="src\Weapon.cpp" />
+    <ClCompile Include="src\equipments\Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\AnimationComponent.h" />
-    <ClInclude Include="include\Armor.h" />
-    <ClInclude Include="include\Button.h" />
-    <ClInclude Include="include\Character.h" />
-    <ClInclude Include="include\ChatBoxGUI.h" />
-    <ClInclude Include="include\CommandComponent.h" />
-    <ClInclude Include="include\EditorGUI.h" />
-    <ClInclude Include="include\EditorState.h" />
-    <ClInclude Include="include\Entity.h" />
-    <ClInclude Include="include\Game.h" />
-    <ClInclude Include="include\GameState.h" />
-    <ClInclude Include="include\GUI.h" />
-    <ClInclude Include="include\HitboxComponent.h" />
-    <ClInclude Include="include\Inventory.h" />
-    <ClInclude Include="include\InventoryGUI.h" />
-    <ClInclude Include="include\Item.h" />
-    <ClInclude Include="include\Macros.h" />
-    <ClInclude Include="include\Map.h" />
-    <ClInclude Include="include\MenuGUI.h" />
-    <ClInclude Include="include\MenuState.h" />
-    <ClInclude Include="include\MiniMapGUI.h" />
-    <ClInclude Include="include\MovementComponent.h" />
-    <ClInclude Include="include\MusicComponent.h" />
-    <ClInclude Include="include\Player.h" />
-    <ClInclude Include="include\PlayerGUI.h" />
-    <ClInclude Include="include\stdafx.h" />
-    <ClInclude Include="include\State.h" />
-    <ClInclude Include="include\StatisticsComponent.h" />
-    <ClInclude Include="include\TextField.h" />
-    <ClInclude Include="include\TransitionComponent.h" />
-    <ClInclude Include="include\Weapon.h" />
+    <ClInclude Include="src\components\AnimationComponent.h" />
+    <ClInclude Include="src\equipments\Armor.h" />
+    <ClInclude Include="src\gui\Button.h" />
+    <ClInclude Include="src\entities\Character.h" />
+    <ClInclude Include="src\gui\ChatBoxGUI.h" />
+    <ClInclude Include="src\components\CommandComponent.h" />
+    <ClInclude Include="src\gui\EditorGUI.h" />
+    <ClInclude Include="src\states\EditorState.h" />
+    <ClInclude Include="src\entities\Entity.h" />
+    <ClInclude Include="src\core\Game.h" />
+    <ClInclude Include="src\states\GameState.h" />
+    <ClInclude Include="src\gui\GUI.h" />
+    <ClInclude Include="src\components\HitboxComponent.h" />
+    <ClInclude Include="src\equipments\Inventory.h" />
+    <ClInclude Include="src\gui\InventoryGUI.h" />
+    <ClInclude Include="src\equipments\Item.h" />
+    <ClInclude Include="src\Macros.h" />
+    <ClInclude Include="src\core\Map.h" />
+    <ClInclude Include="src\gui\MenuGUI.h" />
+    <ClInclude Include="src\states\MenuState.h" />
+    <ClInclude Include="src\gui\MiniMapGUI.h" />
+    <ClInclude Include="src\components\MovementComponent.h" />
+    <ClInclude Include="src\components\MusicComponent.h" />
+    <ClInclude Include="src\entities\Player.h" />
+    <ClInclude Include="src\gui\PlayerGUI.h" />
+    <ClInclude Include="src\stdafx.h" />
+    <ClInclude Include="src\states\State.h" />
+    <ClInclude Include="src\components\StatisticsComponent.h" />
+    <ClInclude Include="src\gui\TextField.h" />
+    <ClInclude Include="src\components\TransitionComponent.h" />
+    <ClInclude Include="src\equipments\Weapon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -69,196 +69,196 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Main.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Map.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="src\Utility.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="src\stdafx.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\ChatBoxGUI.cpp">
-      <Filter>GUI\sources</Filter>
-    </ClCompile>
-    <ClCompile Include="src\GUI.cpp">
-      <Filter>GUI\sources</Filter>
-    </ClCompile>
-    <ClCompile Include="src\EditorGUI.cpp">
-      <Filter>GUI\sources</Filter>
-    </ClCompile>
-    <ClCompile Include="src\InventoryGUI.cpp">
-      <Filter>GUI\sources</Filter>
-    </ClCompile>
-    <ClCompile Include="src\MenuGUI.cpp">
-      <Filter>GUI\sources</Filter>
-    </ClCompile>
-    <ClCompile Include="src\MiniMapGUI.cpp">
-      <Filter>GUI\sources</Filter>
-    </ClCompile>
-    <ClCompile Include="src\PlayerGUI.cpp">
-      <Filter>GUI\sources</Filter>
-    </ClCompile>
-    <ClCompile Include="src\EditorState.cpp">
+    <ClCompile Include="src\states\MenuState.cpp">
       <Filter>states\sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\GameState.cpp">
+    <ClCompile Include="src\states\State.cpp">
       <Filter>states\sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\MenuState.cpp">
+    <ClCompile Include="src\states\EditorState.cpp">
       <Filter>states\sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\State.cpp">
-      <Filter>states\sources</Filter>
-    </ClCompile>
-    <ClCompile Include="src\HitboxComponent.cpp">
+    <ClCompile Include="src\components\AnimationComponent.cpp">
       <Filter>components\sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\MovementComponent.cpp">
+    <ClCompile Include="src\components\HitboxComponent.cpp">
       <Filter>components\sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\MusicComponent.cpp">
+    <ClCompile Include="src\components\CommandComponent.cpp">
       <Filter>components\sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\StatisticsComponent.cpp">
+    <ClCompile Include="src\components\MovementComponent.cpp">
       <Filter>components\sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\TransitionComponent.cpp">
+    <ClCompile Include="src\components\StatisticsComponent.cpp">
       <Filter>components\sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\CommandComponent.cpp">
+    <ClCompile Include="src\components\TransitionComponent.cpp">
       <Filter>components\sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\AnimationComponent.cpp">
-      <Filter>components\sources</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Armor.cpp">
-      <Filter>items\sources</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Inventory.cpp">
-      <Filter>items\sources</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Item.cpp">
-      <Filter>items\sources</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Weapon.cpp">
-      <Filter>items\sources</Filter>
-    </ClCompile>
-    <ClCompile Include="src\TextField.cpp">
+    <ClCompile Include="src\gui\GUI.cpp">
       <Filter>GUI\sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\Button.cpp">
+    <ClCompile Include="src\gui\MenuGUI.cpp">
       <Filter>GUI\sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\Character.cpp">
-      <Filter>entities\sources</Filter>
+    <ClCompile Include="src\gui\MiniMapGUI.cpp">
+      <Filter>GUI\sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\Entity.cpp">
-      <Filter>entities\sources</Filter>
+    <ClCompile Include="src\gui\PlayerGUI.cpp">
+      <Filter>GUI\sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\Player.cpp">
-      <Filter>entities\sources</Filter>
+    <ClCompile Include="src\gui\InventoryGUI.cpp">
+      <Filter>GUI\sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\Game.cpp">
+    <ClCompile Include="src\gui\ChatBoxGUI.cpp">
+      <Filter>GUI\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\TextField.cpp">
+      <Filter>GUI\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\EditorGUI.cpp">
+      <Filter>GUI\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\states\GameState.cpp">
+      <Filter>states\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\components\MusicComponent.cpp">
+      <Filter>components\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Game.cpp">
       <Filter>game manager\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\Button.cpp">
+      <Filter>GUI\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Map.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\Character.cpp">
+      <Filter>entities\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\Entity.cpp">
+      <Filter>entities\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities\Player.cpp">
+      <Filter>entities\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\equipments\Armor.cpp">
+      <Filter>items\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\equipments\Inventory.cpp">
+      <Filter>items\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\equipments\Item.cpp">
+      <Filter>items\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\equipments\Weapon.cpp">
+      <Filter>items\sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\Macros.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="include\Map.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="include\stdafx.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="include\EditorGUI.h">
-      <Filter>GUI\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\GUI.h">
-      <Filter>GUI\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\InventoryGUI.h">
-      <Filter>GUI\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\MenuGUI.h">
-      <Filter>GUI\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\PlayerGUI.h">
-      <Filter>GUI\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\ChatBoxGUI.h">
-      <Filter>GUI\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\MiniMapGUI.h">
-      <Filter>GUI\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\MenuState.h">
+    <ClInclude Include="src\states\EditorState.h">
       <Filter>states\headers</Filter>
     </ClInclude>
-    <ClInclude Include="include\GameState.h">
+    <ClInclude Include="src\states\MenuState.h">
       <Filter>states\headers</Filter>
     </ClInclude>
-    <ClInclude Include="include\EditorState.h">
+    <ClInclude Include="src\states\State.h">
       <Filter>states\headers</Filter>
     </ClInclude>
-    <ClInclude Include="include\State.h">
+    <ClInclude Include="src\components\AnimationComponent.h">
+      <Filter>components\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\CommandComponent.h">
+      <Filter>components\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\HitboxComponent.h">
+      <Filter>components\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\MovementComponent.h">
+      <Filter>components\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\StatisticsComponent.h">
+      <Filter>components\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\TransitionComponent.h">
+      <Filter>components\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\states\GameState.h">
       <Filter>states\headers</Filter>
     </ClInclude>
-    <ClInclude Include="include\AnimationComponent.h">
-      <Filter>components\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\CommandComponent.h">
-      <Filter>components\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\HitboxComponent.h">
-      <Filter>components\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\MovementComponent.h">
-      <Filter>components\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\MusicComponent.h">
-      <Filter>components\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\StatisticsComponent.h">
-      <Filter>components\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\TransitionComponent.h">
-      <Filter>components\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\Armor.h">
-      <Filter>items\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\Inventory.h">
-      <Filter>items\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\Item.h">
-      <Filter>items\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\Weapon.h">
-      <Filter>items\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\Player.h">
-      <Filter>entities\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\TextField.h">
+    <ClInclude Include="src\gui\ChatBoxGUI.h">
       <Filter>GUI\headers</Filter>
     </ClInclude>
-    <ClInclude Include="include\Entity.h">
-      <Filter>entities\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\Character.h">
-      <Filter>entities\headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\Button.h">
+    <ClInclude Include="src\gui\GUI.h">
       <Filter>GUI\headers</Filter>
     </ClInclude>
-    <ClInclude Include="include\Game.h">
+    <ClInclude Include="src\gui\EditorGUI.h">
+      <Filter>GUI\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\InventoryGUI.h">
+      <Filter>GUI\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\MenuGUI.h">
+      <Filter>GUI\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\MiniMapGUI.h">
+      <Filter>GUI\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\PlayerGUI.h">
+      <Filter>GUI\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\components\MusicComponent.h">
+      <Filter>components\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Game.h">
       <Filter>game manager\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\Button.h">
+      <Filter>GUI\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Map.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Macros.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\TextField.h">
+      <Filter>GUI\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stdafx.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\Character.h">
+      <Filter>entities\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\Entity.h">
+      <Filter>entities\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\entities\Player.h">
+      <Filter>entities\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\equipments\Armor.h">
+      <Filter>items\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\equipments\Inventory.h">
+      <Filter>items\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\equipments\Item.h">
+      <Filter>items\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\equipments\Weapon.h">
+      <Filter>items\headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
